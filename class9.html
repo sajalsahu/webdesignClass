@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner-bg-img{
+            width: 100%;
+            height: 600px;
+            background-size: 100% 100%;
+            background-image: url('./pexels-markus-spiske-168866.jpg');
+            background-color: brown;
+            background-repeat: no-repeat;
+        }
+        .banner-bg-img:hover{
+            background-image: url('./pexels-ella-olsson-1640777.jpg');
+        }
+        .bg-attach{
+            width:100%;
+            height: 600px;
+            background-image: url('./pexels-ella-olsson-1640777.jpg');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        .d-in-line{
+            display: inline;
+        }
+        .d-in-line-block{
+            display: inline;
+        }
+        .header{
+            background-color: #141e26;
+            color: #fff;
+        }
+        .header:hover{
+            background-color: #fd1c44;
+        }
+        .header-logo{
+            width:60px;
+            height: 60px;
+            line-height: 60px;
+            margin-left: 10px;
+        }
+        .menu-item{
+            margin-right: 70px;
+        }
+        .menu-item:hover{
+            color: red;
+            background-color: gray;
+        }
+        .menu-wraper{
+            margin-left: 238px;
+        }
+        .bg-color-primary{
+            background-color: blueviolet;
+        }
+        .about-us{
+            width: 100%;
+            height: 550px;
+        }
+    </style>
+</head>
+<body style="margin: 0%;padding: 0%;">
+    <header class="header" >
+        <div class="d-in-line-block header-logo" >LOGO</div>
+        
+        <div class="d-in-line menu-wraper">
+            <ul class="d-in-line">
+                <li class="d-in-line menu-item" >Home</li>
+                <li class="d-in-line menu-item" >Service</li>
+                <li class="d-in-line menu-item" >About Us</li>
+                <li class="d-in-line menu-item" >Contact Us</li>
+            </ul>
+        </div>
+    </header>
+    <section class="banner-bg-img"></section>
+    <div class="bg-attach img-hover">
+        <img src="pubg-bg.jpg" style="background-color: #fd1c44; margin-left: 13px;"></img>
+        <img src="pubg-bg.jpg" style="background-color: #fd1c44; margin-left: 33px;"></img>
+        <img src="pubg-bg.jpg" style="background-color: #fd1c44; margin-top:15%;margin-left: 33px;"></img>
+    </div>
+    <section class="bg-color-primary about-us">
+        
+    </section>
+</body>
+
+</html>
